@@ -1,0 +1,13 @@
+path: ./NEU-DET   # 数据集根目录
+
+train: train/images
+val: validation/images  # 若无 validation 文件夹，可先填写 train/images 跑通 Demo
+
+# 6 个类别定义
+names:
+  0: crazing
+  1: inclusion
+  2: patches
+  3: pitted_surface
+  4: rolled-in_scale
+  5: scratches
